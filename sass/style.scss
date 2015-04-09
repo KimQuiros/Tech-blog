@@ -1,0 +1,9 @@
+// importar las hojas scss
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/variables";
+@import "partials/globals";
+
+//modules
+@import "partials/modules/navegation";
+@import "partials/modules/header";
