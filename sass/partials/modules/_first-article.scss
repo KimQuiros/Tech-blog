@@ -1,22 +1,24 @@
-.container-article{
+.container-article-featured{
 	background-color: $white;
 	width: 50%;
 	margin-left: 120px;
 	margin-top: -120px;
-	.container-article-first{
+	.container-article-featured-first{
 		margin-left: 50px;
 		padding-top:5px;
 		border-bottom: 1px solid $grey;
 	}
-	.conteiner-article-first-title{
+	.conteiner-article-featured-first-title{
 		width: 80%;
 	}
-	.container-article-first-image{
-		img{
+	.container-article-featured-first-image-img{
 		margin-top: 30px;
-		}
 	}
 	p{
 		width: 95%;
 	}
+}
+//The other articles
+.container-news-list-first-images{
+	background-color: $grey;
 }
