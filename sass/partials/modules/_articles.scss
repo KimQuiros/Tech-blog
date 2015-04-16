@@ -1,0 +1,17 @@
+.article{
+	max-width: 600px;
+  margin: 0 auto;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 170px;
+}
+.container-article{
+	width: 20%;
+	margin-left: 160px;
+	margin-top: -300px;
+	.container-articles-first-title{
+		@include font-size(13);
+		color:$light-turquoise;
+		border-bottom: 2px solid $turquoise;
+	}
+}

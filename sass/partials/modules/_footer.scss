@@ -1,0 +1,29 @@
+.container-footer{
+	text-align: center;
+	background: $grey;
+	background-size: cover;
+	padding-top: 20px;
+	height: 100px;
+	color:$dark-grey;
+	margin-top: 100px;
+}
+.container-footer-navegation{
+
+	margin-left: 95px;
+	.footer{
+		@include font-size(10); 
+		padding-top: 100px;
+		margin-left:10px;
+		color: $dark-grey;
+		&:hover{
+			background-color: $light-turquoise;
+			color:$white;
+			padding:6px;
+		}
+	}
+}
+.move{
+
+	display: inline-block;
+	margin-right:100px; 
+}

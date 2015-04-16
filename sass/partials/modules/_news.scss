@@ -1,0 +1,29 @@
+.container-news-list{
+	border-bottom: 1px solid $grey;
+	width: 95%;
+	.container-news-list-images{
+		background-color: $grey;
+		width: 35%;
+		height: 160px;
+	}
+	.container-news-list-text{
+		margin-top: -180px;
+		margin-left: 230px;
+		p{
+			margin-bottom: 5px;
+		}
+	}
+	.container-news-list-date{
+		margin-bottom: 7px;
+	}
+}
+.container-news-list-cargar{
+	@include font-size(9); 
+	background: $light-turquoise;
+	padding: 10px 50px;
+	border-radius: 6px;
+	color: $white;
+	top:30px;
+	left: 30%;
+	position: relative;
+}
